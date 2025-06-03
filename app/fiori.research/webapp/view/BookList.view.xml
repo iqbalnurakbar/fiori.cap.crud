@@ -1,0 +1,52 @@
+<mvc:View
+    controllerName="fiori.research.controller.BookList"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+    xmlns:mvc="sap.ui.core.mvc"
+>
+    <SplitApp id="splitApp">
+        <!-- MASTER: Authors List on the left side -->
+        <masterPages>
+            <Page title="Dashboard">
+                <!-- Subheader toolbar with title and Add button -->
+                <subHeader>
+                    <Toolbar>
+                        <Title text="Authors" />
+                        <ToolbarSpacer />
+
+                        <Button
+                            icon="sap-icon://add"
+                            tooltip="Add Author"
+                            press=".onAddAuthor"
+                        />
+                        <Button
+                            icon="sap-icon://edit"
+                            tooltip="Edit Author"
+                            press=".onEditAuthor"
+                        />
+                        <Button
+                            icon="sap-icon://delete"
+                            type="Reject"
+                            tooltip="Delete Author"
+                            press=".onDeleteAuthor"
+                        />
+                    </Toolbar>
+                </subHeader>
+
+                <!-- List bound to the /Authors OData endpoint -->
+                <List
+                    id="authorList"
+                    mode="SingleSelectMaster"
+                    items="{ path: '/Authors'}"
+                >
+                    <!-- Template for each author -->
+                    <StandardListItem
+                        title="{name}"
+                        description="{bio}"
+                        type="Active"
+                    />
+                </List>
+            </Page>
+        </masterPages>
+    </SplitApp>
+</mvc:View>

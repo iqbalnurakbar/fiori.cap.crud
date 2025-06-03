@@ -1,0 +1,1 @@
+using BookService as service from '../../srv/books-service';

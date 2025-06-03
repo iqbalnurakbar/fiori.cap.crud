@@ -1,0 +1,6 @@
+ID,name,bio,isDeleted,createdAt,createdBy,modifiedAt,modifiedBy
+29787080-9efd-4cd7-8374-ad6d9e1f94c2,Emily Johnson,"Software engineer with 8 years of experience in web development",false,2005-06-21T17:00:00.000Z,admin@techcompany.com,2018-06-02T17:00:00.000Z,manager@techcompany.com
+1574645b-04c4-46ea-90b1-ac3cd5ac38c3,Michael Chen,"Marketing specialist focused on digital campaigns and brand strategy",false,2023-04-01T17:00:00.000Z,hr@marketingfirm.org,2003-10-09T17:00:00.000Z,teamlead@marketingfirm.com
+15746465-026a-4b78-9191-f2495cf87727,Sarah Williams,"Graphic designer with expertise in UI/UX and branding",false,2006-05-26T17:00:00.000Z,admin@designstudio.net,2002-06-22T17:00:00.000Z,creative-director@designstudio.net
+15746471-334f-45d4-bbbb-66570687b94c,David Rodriguez,"Financial analyst specializing in investment portfolios",false,2000-04-21T17:00:00.000Z,system@financegroup.com,2013-03-06T17:00:00.000Z,compliance@financegroup.org
+1574648c-19b9-478e-958c-717318bb1d2e,Jessica Lee,"Healthcare administrator with 5 years of hospital management experience",false,2020-07-04T17:00:00.000Z,admin@healthcare.org,2013-12-16T17:00:00.000Z,ceo@healthcare.net

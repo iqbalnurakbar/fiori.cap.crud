@@ -1,0 +1,6 @@
+code,symbol,minorUnit,name,descr
+840,$,2,US Dollar,"Primary reserve currency, used in the United States and globally"
+978,€,2,Euro,"Currency of the Eurozone, adopted by 20 EU countries"
+392,¥,0,Japanese Yen,"Official currency of Japan, no minor units (e.g., ¥1000)"
+826,£,2,British Pound,"Currency of the United Kingdom, also called Pound Sterling"
+036,A$,2,Australian Dollar,"Official currency of Australia and Pacific island nations"
