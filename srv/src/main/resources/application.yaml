@@ -14,3 +14,6 @@ spring:
 cds:
   odata-v4:
     lazy-i18n.enabled: true
+
+server:
+  port:  8081

@@ -1,0 +1,44 @@
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+>
+    <Dialog title="Add Book">
+        <VBox class="sapUiSmallMargin">
+            <Input
+                id="addTitleInput"
+                placeholder="Title"
+            />
+            <TextArea
+                id="addDescrInput"
+                placeholder="Description"
+                width="100%"
+            />
+            <Input
+                id="addStockInput"
+                placeholder="Stock"
+                type="Number"
+            />
+            <Input
+                id="addPriceInput"
+                placeholder="Price"
+                type="Number"
+            />
+            <Input
+                id="addCurrencyInput"
+                placeholder="Currency"
+            />
+        </VBox>
+        <beginButton>
+            <Button
+                text="Create"
+                press=".onAddBookConfirm"
+            />
+        </beginButton>
+        <endButton>
+            <Button
+                text="Cancel"
+                press=".onDialogCancel"
+            />
+        </endButton>
+    </Dialog>
+</core:FragmentDefinition>
